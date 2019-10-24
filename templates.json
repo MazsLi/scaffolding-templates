@@ -1,10 +1,14 @@
 {
-  "chrome-extension": {
-    "description": "chrome extension example",
-    "place": ""
-  },
-  "react": {
-    "description": "react",
-    "place": ""
-  } 
+  "version": "0.0.1",
+  "templates": {
+    "chrome-extension": {
+      "description": "chrome extension example",
+      "place": ""
+    },
+    "react": {
+      "description": "react",
+      "place": ""
+    } 
+  }
+  
 }
