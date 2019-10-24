@@ -1,0 +1,10 @@
+{
+  "chrome-extension": {
+    "description": "chrome extension example",
+    "place": ""
+  },
+  "react": {
+    "description": "react",
+    "place": ""
+  } 
+}
