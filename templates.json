@@ -3,11 +3,11 @@
   "templates": {
     "chrome-extension": {
       "description": "chrome extension example",
-      "place": ""
+      "place": "MazsLi/scaffolding-templates/templates/chrome-extension"
     },
     "react": {
       "description": "react",
-      "place": ""
+      "place": "MazsLi/scaffolding-templates/templates/react"
     } 
   }
   
