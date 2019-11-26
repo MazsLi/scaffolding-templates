@@ -3,11 +3,18 @@
   "templates": {
     "chrome-extension": {
       "description": "chrome extension example",
-      "place": "MazsLi/scaffolding-templates/templates/chrome-extension"
+      "place": "MazsLi/scaffolding-templates/templates/chrome-extension",
+      "branch": ""
     },
     "react": {
       "description": "react",
-      "place": "MazsLi/scaffolding-templates/templates/react"
+      "place": "MazsLi/scaffolding-templates/templates/react",
+      "branch": ""
+    },
+    "webcomponent": {
+      "description": "webcomponent",
+      "place": "MazsLi/scaffolding-templates/templates/webcomponent",
+      "branch": ""
     } 
   }
   

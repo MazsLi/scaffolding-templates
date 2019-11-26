@@ -1,0 +1,52 @@
+{
+  "name": "webcomponent-example",
+  "version": "1.0.0",
+  "author": "Write your name here",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server",
+    "clean": "rm build/asset-manifest.json && rm build/service-worker.js",
+    "build": "webpack --mode production",
+    "pack": "rm -rf build && tnpm run build && tnpm run zip",
+    "publish": "rm -rf build && tnpm run build && node ./scripts/publish2basement.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@ali/lighthouse-di-common": "^1.0.6",
+    "@antv/g6": "^3.2.2",
+    "ant-design-pro": "^2.3.2",
+    "antd": "^3.19.8",
+    "bizcharts": "^3.5.4",
+    "clipboard": "^2.0.4",
+    "hybrids": "^4.0.2",
+    "localstorage-ttl": "^1.0.2",
+    "numeral": "^2.0.6",
+    "qs": "^6.7.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@alipay/basement": "^3.3.0",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-1": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "co": "^4.6.0",
+    "css-loader": "^3.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "urllib": "^2.34.0",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "tnpm": {
+    "mode": "npm",
+    "lockfile": "enable"
+  },
+  "license": "ISC",
+  "description": "My webpack project"
+}
