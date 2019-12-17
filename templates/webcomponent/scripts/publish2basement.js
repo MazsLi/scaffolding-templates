@@ -12,8 +12,8 @@ const filePrefix = (() => {
 })();
 
 const basement = new Basement({
-    appId: '5c66533970eca2cf8186696b',
-    masterKey: 'tZ-sUF_45wyoFCl0VPIlInU1',
+    appId: 'xxxxx',
+    masterKey: 'xxxx',
     urllib,
     endpoint: 'https://basement-gzone.alipay.com'
 });
